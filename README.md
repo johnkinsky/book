@@ -1,3 +1,3 @@
-###New Readme
-New file for repo.
-Change made to the file.
+GitHub Repo of John M. Kinsky
+
+You can find examples of my past work, current projects, and some things I'm thinking about working on.
