@@ -15,3 +15,6 @@
 - [markdown](https://www.markdownguide.org/basic-syntax/)
 - [reStructuredText](https://docutils.sourceforge.io/rst.html)
 - [DITA](https://dita-lang.org/dita/archspec/base/basic-concepts)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [HTML5](https://www.w3docs.com/learn-html/html5-introduction.html)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
