@@ -4,20 +4,21 @@
 
 Community-driven open source tools and toolchains that support creating, transforming, and publishing documentation. 
 
-- [DIta Open Toolkit (DITA OT)](https://www.dita-ot.org/)
-- [SKIA](https://skia.org/docs/)
+- [DITA Open Toolkit (DITA OT)](https://www.dita-ot.org/)
+- [Skia](https://skia.org/docs/)
 - [Pandoc](https://pandoc.org/)
 - [Sphinx](https://www.sphinx-doc.org/)
 - [GitBook](https://docs.gitbook.com/)
 - [Docusaurus](https://docusaurus.io/docs)
-- [MK Docs](https://www.mkdocs.org/)
+- [MkDocs](https://www.mkdocs.org/)
 - [FAR HTML](https://www.helpwaregroup.com/download)
+- [LaTeX](https://latex-tutorial.com/quick-start/)
+- [GNU roff](https://www.gnu.org/software/groff/groff.html)
 
 ## Documentation Solutions (Commercial)
 
 Commercial platforms that offer sophisticated user interfaces, collaboration, and publishing workflows. 
 
-- [DITA Browser Editors](https://www.ditawriter.com/list-of-dita-optimized-editors/)
 - [fontoXML](https://documentation.fontoxml.com/)
 - [RWS Tridion Docs](https://docs.rws.com/en-US/publications/tridion-docs)
 - [Paligo](https://docs.paligo.net/)
