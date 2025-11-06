@@ -9,21 +9,22 @@ This is a relatively simple Python script that analyzes the content of a web pag
 - Finds all links with fully-formed URLs (internal and external).
 - Exports the page analysis in either HTML or Markdown format.
 
-I created the script to demonstrate how a few Python packages can quickly introduce some powerful NLP processing features without a lot of additional coding. (I'm not a great programmer, so if I can do it, then any technically oriented person could do it.)
+I created the script to demonstrate how a few Python packages can quickly introduce some powerful NLP processing features without a lot of additional coding. (I'm not a great programmer; if I can create a script like this, then any technically oriented person should be able to follow my example and write a similar script.)
 
 For example, I used the following packages to get these features:
 
-| Package Name     | Description
-|:---              |:---
-| `request`        | Request the web page.
-| `BeautifulSoup`  | Parsing and extracting HTML content, including named elements like links.
-| `TextBlob`       | Analyzing page sentiment and tagging parts of speech (POS).
-| `NLTK`           | Natural Language Toolkit (NLTK). Tokenizes text, remove common words from analysis, tag the parts of speech, and calculate the frequency of the keywords.
-| `urlparse`       | Request network location from the URL and parses link in the content.
+| Package Name                                                | Description
+|:---                                                         |:---
+| [request](https://pypi.org/project/requests/)               | Requesting a valid web page (by specific URL).
+| [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)  | Parsing and extracting HTML content, including named elements like links.
+| [TextBlob](https://pypi.org/project/textblob/)              | Analyzing page sentiment and tagging parts of speech (POS).
+| [NLTK](https://pypi.org/project/nltk/)                      | Natural Language Toolkit (NLTK). Tokenizes text, remove common words from analysis, tag the parts of speech, and calculate keyword frequency.
+
+My guideline while creating the script was to use common Python packages that could introduce powerful NLP capabilties without bloating my local system or requiring a large dependency chain. (If you've ever installed [rake-nlkt](https://pypi.org/project/rake-nltk/), then you know what I mean. It's powerful, handles sentences, and is more customizable, but it comes with a lot of dependencies.)
 
 ## Run the Page Analyzer Script
 
-1. Install the requirements. (Needed only if you do not have the packages installed.)
+1. Install the requirements. (This is necessary only if you do not have the packages installed arlready.)
 
    ```
    pip install -r requirements.txt
@@ -46,7 +47,7 @@ For example, I used the following packages to get these features:
    ```
    
 
-5. Enter the output format: `html` or `md`.
+5. Enter an output format: `html` or `md`.
 
 ## Script Output
 
@@ -76,4 +77,4 @@ When you are done, you can remove the installed packages installed for this exam
 ```
 pip uninstall -y -r requirements.txt
 ```
-
+Enjoy!

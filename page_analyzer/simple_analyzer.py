@@ -2,6 +2,7 @@
 
 # Install required packages:
 # pip install -r requirements.txt
+
 # Uninstall packages if needed:
 # pip uninstall -y -r requirements.txt
 
@@ -60,26 +61,26 @@ def get_url():
         raise ValueError("URL must start with http:// or https://")
     return url
 
-def sanitize_filename(text): # Clean up the URL to use for file naming
+def sanitize_filename(text): # Clean up the URL to use for file naming.
     return re.sub(r'[^\w\-_. ]', '', text).replace(' ', '_')
 
-def scrape_content(url):
+def scrape_content(url): # Get the page content.
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     text = soup.get_text(separator=' ', strip=True)
     # Get the page title to disambiguate page results
     title = soup.title.string.strip() if soup.title and soup.title.string else "untitled"
 
-    base_netloc = urlparse(url).netloc
+    base_netloc = urlparse(url).netloc # Get the external URLs from the extracted content.
     links = []
     for a in soup.find_all('a', href=True):
         href = a['href']
         parsed_href = urlparse(href)
-        if parsed_href.scheme in ['http', 'https'] and parsed_href.netloc and parsed_href.netloc != base_netloc:
+        if parsed_href.scheme in ['http', 'https'] and parsed_href.netloc and parsed_href.netloc != base_netloc: # Find only HTTP and HTTPS URLs.
             links.append(href)
     return text, links, title
 
-def analyze_text(text):
+def analyze_text(text): # Analyze the extracted content.
     blob = TextBlob(text)
     tone = "Positive 😊" if blob.sentiment.polarity > 0 else "Negative 😞" if blob.sentiment.polarity < 0 else "Neutral 😐"
     words = word_tokenize(text.lower())
@@ -100,7 +101,7 @@ def analyze_text(text):
     return tone, keyword_data
 
 
-def write_html(url, tone, keywords, links, title):
+def write_html(url, tone, keywords, links, title): # Export analysis HTML format
     keyword_list = ''.join(
         f"<tr><td><b>{word}</b></td><td>{pos}</td><td>{count}</td><td>{density}%</td></tr>"
         for word, count, density, pos in keywords
@@ -144,7 +145,7 @@ def write_html(url, tone, keywords, links, title):
         f.write(html_content)
     print(f"HTML formatted page analysis written to {filename}")
 
-def write_markdown(url, tone, keywords, links, title):
+def write_markdown(url, tone, keywords, links, title): # Export to Markdown format
     keyword_lines = '\n'.join(
         f"|**{word}**|{pos}|{count}|{density}%"
         for word, count, density, pos in keywords
@@ -175,7 +176,7 @@ def write_markdown(url, tone, keywords, links, title):
         f.write(md_content)
     print(f"Markdown formatted page analysis written to {filename}")
 
-def main():
+def main(): # Do the work. 
     try:
         url = get_url()
         text, links, title = scrape_content(url)
@@ -190,5 +191,5 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
 
-if __name__ == "__main__":
+if __name__ == "__main__": # Run main() only on direct execution.
     main()
