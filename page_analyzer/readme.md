@@ -15,10 +15,10 @@ For example, I used the following packages to get these features:
 
 | Package Name                                                | Description
 |:---                                                         |:---
-| [request](https://pypi.org/project/requests/)               | Requesting a valid web page (by specific URL).
+| [requests](https://pypi.org/project/requests/)               | Requesting a valid web page (by specific URL).
 | [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)  | Parsing and extracting HTML content, including named elements like links.
 | [TextBlob](https://pypi.org/project/textblob/)              | Analyzing page sentiment and tagging parts of speech (POS).
-| [NLTK](https://pypi.org/project/nltk/)                      | Natural Language Toolkit (NLTK). Tokenizes text, remove common words from analysis, tag the parts of speech, and calculate keyword frequency.
+| [NLTK](https://pypi.org/project/nltk/)                      | Tokenizes text, remove common words from analysis, tag the parts of speech, and calculates keyword frequency.
 
 My guideline while creating the script was to use common Python packages that could introduce powerful NLP capabilties without bloating my local system or requiring a large dependency chain. (If you've ever installed [rake-nlkt](https://pypi.org/project/rake-nltk/), then you know what I mean. It's powerful, handles sentences, and is more customizable, but it comes with a lot of dependencies.)
 
