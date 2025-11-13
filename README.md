@@ -29,6 +29,10 @@ I've done a lot of things in my career. At various times and several companies, 
 
 As you might expect, I used a lot of tools, technologies, and methodologies in these various roles. Here is a list of some of the tools and technologies.
 
+## Samples I'm Working On
+
+- [Page Analyzer Sample](https://github.com/johnkinsky/book/tree/main/page_analyzer)
+
 ### Developer, Documentation, and Analysis Tools and Technologies
 
 |Content Development and Management       | Web Development and Programming
