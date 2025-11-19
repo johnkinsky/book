@@ -1,0 +1,13 @@
+# Install required packages:
+# pip install -r requirements.txt
+
+# Uninstall packages if needed:
+# pip uninstall -y -r requirements.txt
+
+# Core Packages
+requests
+beautifulsoup4
+
+# Text Analysis
+textblob
+nltk
