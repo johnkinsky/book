@@ -1,4 +1,4 @@
-name: Build and Deploy Docs
+name: Build and Publish Guide
 
 on:
   push:
@@ -33,4 +33,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/build/html
-          publish_branch: gh-pages
