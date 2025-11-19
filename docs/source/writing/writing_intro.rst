@@ -30,7 +30,6 @@ I’ve found that technical writers share some common traits.
 - **Passion for reading and readers**: Technical writers who last as writers are, at heart, readers. They seem to love reading books, articles, blogs, novels, ad copy, web content and the back of cereal boxes, so they care about the people who read and use their written instructions.
 
 
-
 .. toctree::
    :maxdepth: 1
    :caption: In this section:
