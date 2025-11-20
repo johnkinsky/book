@@ -35,3 +35,4 @@ html_baseurl = "https://johnkinsky.github.io/book/"
 html_static_path = ['_static'] # Path to HTML elements
 html_logo = '_static/logo.png' # Path to logo file
 html_use_index = False # Do not generate the index page
+
