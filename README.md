@@ -17,7 +17,7 @@ I've done a lot of things in my career. At various times and several companies, 
 - Engineering Manager
 - People Manager
 - Operations Manager
-- Mayor 
+- Mayor
 
 As you might expect, I used a lot of tools, technologies, and methodologies in these various roles. Here is a list of some of the [tools and technologies](tools.md) I have used.
 
@@ -32,8 +32,8 @@ As you might expect, I used a lot of tools, technologies, and methodologies in t
 ### Writing Portfolio
 - [PDF Version](https://github.com/johnkinsky/book/blob/main/writing_samples.pdf)
 
-## Projects
+## Book
 
-I'm currently working on a book on technical writing incorporating content strategy, content governance, publishing pipelines, task analysis and analytics.
+I'm currently working on a book, more properly a guide at present, on technical writing incorporating content strategy, content governance, publishing pipelines, task analysis and analytics. See my progress at [Technical Writing: From Basics to a Complex Systems Approach](https://johnkinsky.github.io/book/).
 
-The book is intended to to provide practical guidelines and methodologies to anyone who wants to create content or documentation, reduce publishing and review friction, and track content effectiveness in real time.
+The guide is intended to provide useful practices, methodologies, and tools to anyone who wants to create content or documentation, reduce publishing and review friction, and track content effectiveness in real time.
