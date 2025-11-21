@@ -62,3 +62,11 @@ Data and Information Visualization
 
 | Huff, Darrell. 1954. **How to Lie with Statistics**. Illustrated by Irving Geis. New York: W. W. Norton. 
 | (ISBN 9780393310726) 
+
+=========================================
+Online Writing Resources
+=========================================
+
+- `Purdue OWL <https://owl.purdue.edu/owl/index.html>`_
+- `Perfect English Grammar <https://www.perfect-english-grammar.com/>`_
+

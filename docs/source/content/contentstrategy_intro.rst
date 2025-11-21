@@ -42,27 +42,27 @@ Individual writers always perform the tasks in the system at some levels but mig
 Elements of Content Strategy
 ===================================
 
-Content strategy is a broad disciple with multiple expressions all of which must be considered and balanced simultaneously. Our content is a balance of five elements:
+Content strategy is a broad disciple with multiple expressions all of which must be considered and balanced simultaneously. The six elements to balance are... 
 
-- **Need:** What information is being shared, published, capturred? Why is this information important? How accurate does it need to be? Who could need it and when?
-- **Context:** Where or when is the user using the information? What it the reason the users needs the informaiton? What are user expectations? What is the value of the information in the user’s context?
-- **Format:** What is the form or shape of the information? (Text, audio, image, infographic, data, video, combinations, etc.). Does the form change the context or nature of the information? Does it change the accuracy needs? Does the form affect the information quality or usability?
-- **Integrity:** Is the information internally consistent? Is the information consistent with established guidelines? Is the information consistent with other sources?
-- **Channel:** What is the medium used to deliver the information? What influence does channel/medium have on information, context, and format? Do different channels require changes to information or format or both? How do different channels change context or usability?
-- **Secure:** Is non-public information being released? What safeguards exists to prevent damaging or material non-public or personal information from being released? 
+1. **Need:** What information is being shared, published, capturred? Why is this information important? How accurate does it need to be? Who could need it and when?
+2. **Context:** Where or when is the user using the information? What it the reason the users needs the informaiton? What are user expectations? What is the value of the information in the user’s context?
+3. **Format:** What is the form or shape of the information? (Text, audio, image, infographic, data, video, combinations, etc.). Does the form change the context or nature of the information? Does it change the accuracy needs? Does the form affect the information quality or usability?
+4. **Integrity:** Is the information internally consistent? Is the information consistent with established guidelines? Is the information consistent with other sources?
+5. **Channel:** What is the medium used to deliver the information? What influence does channel/medium have on information, context, and format? Do different channels require changes to information or format or both? How do different channels change context or usability?
+6. **Secure:** Is non-public information being released? What safeguards exists to prevent damaging or material non-public or personal information from being released? 
 
 
-The five elements have different needs and roles to create, manage, and govern content. Roles working supporting any content strategy must use highly specialized skills to cooperatively implement a comprehensive, unified approach to content governance, life cycle, distribution, marketing, and responding to user-defined value. 
+The six elements have different needs and roles to create, manage, and govern content. Roles working supporting any content strategy must use highly specialized skills to cooperatively implement a comprehensive, unified approach to content governance, life cycle, distribution, marketing, and responding to user-defined value. 
 
 The other roles essential to defining and implementing an effective content strategy are:
 
-- Information Architect – Helps place all the information elements into the proper location and context. Drives many technical aspects of implementing the content strategy. Determine user needs and values for each distribution channels/presentation layers (docs.mcafee.com, help widgets, PDFs, federated search results, etc.). Help to discover importance and priority of changes in various distribution channels/presentation layers. Design/define IA throughout the entire system focused on the unique or shared needs for all distribution channels (docs.mcafee.com, help widgets, PDFs, federated search results, etc.).
-- Technical Writer – Creates the information users want according to established practice and standards. Might cross multiple roles. Introduce visual element and vocabulary to orient users in the appropriate context faster. Response to increased demands from visually-oriented audience. Adopt processes to reduce reliance on text alone, increase reuse opportunities, and reduce translation costs. Includes integrated video use in appropriate documentation (balance needs across all presentation layers).
-- Editor – Reinforces consistency, clarity, and governance standards.
-- Visual Designer – Drives the content’s visual brand identity to improve usability. Helps define standards for images, videos, infographics, etc. 
-- UX Researcher – Drives analysis into bahavioral patterns. Indentifies problem areas and suggests viable solutions. Uses both qualitative and quantative research. Determine user needs and values for each distribution channels/presentation layers (docs.mcafee.com, help widgets, PDFs, federated search results, etc.). Help to discover importance and priority of changes in various distribution channels/presentation layers.
-- Taxonomist – Uses knowledge manangement and library sciences experience to join the content into reusable and mutable elements. Define and drive taxonomy and terminology in content; amplifies efforts related to search optimization and content sharing. Use all available tools and resources to tag content, seed metadata, and drive McAfee’s view of product ontology.
-- Analyst - Tracks and analyzes content metrics. Applies expertise in quantitative analysis to understand content value rather instead of utility. Helps formulates metrics, indictors, and reports. 
+- *Information Architect* – Helps place all the information elements into the proper location and context. Drives many technical aspects of implementing the content strategy. Determine user needs and values for each distribution channels/presentation layers (docs.mcafee.com, help widgets, PDFs, federated search results, etc.). Help to discover importance and priority of changes in various distribution channels/presentation layers. Design/define IA throughout the entire system focused on the unique or shared needs for all distribution channels (docs.mcafee.com, help widgets, PDFs, federated search results, etc.).
+- *Technical Writer* – Creates the information users want according to established practice and standards. Might cross multiple roles. Introduce visual element and vocabulary to orient users in the appropriate context faster. Response to increased demands from visually-oriented audience. Adopt processes to reduce reliance on text alone, increase reuse opportunities, and reduce translation costs. Includes integrated video use in appropriate documentation (balance needs across all presentation layers).
+- *Editor* – Reinforces consistency, clarity, and governance standards. Drive style guide and content governance efforts.
+- *Visual Designer* – Drives the content’s visual brand identity to improve usability. Helps define standards for images, videos, infographics, etc. 
+- *UX Researcher* – Drives analysis into bahavioral patterns. Indentifies problem areas and suggests viable solutions. Uses both qualitative and quantative research. Determine user needs and values for each distribution channels/presentation layers (docs.mcafee.com, help widgets, PDFs, federated search results, etc.). Help to discover importance and priority of changes in various distribution channels/presentation layers.
+- *Taxonomist* – Uses knowledge management and library sciences experience to join the content into reusable and mutable elements. Define and drive taxonomy and terminology in content; amplifies efforts related to search optimization and content sharing. Use all available tools and resources to tag content, seed metadata, and drive McAfee’s view of product ontology.
+- *Analyst* - Tracks and analyzes content metrics. Applies expertise in quantitative analysis to understand content value rather instead of utility. Helps formulates metrics, indictors, and reports. 
 
 .. toctree::
    :maxdepth: 1

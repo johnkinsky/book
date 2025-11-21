@@ -11,8 +11,8 @@ There are many writers in the world. When asked, most people would probably defi
 The Merriam-Webster Dictionary offers the following definition of **professional**:[#professional]_.
 
  | 2 a. participating for gain or livelihood in an activity or field of endeavor often engaged in by amateurs.
- |   b. having a particular profession as a permanent career.
- |   c. engaged in by persons receiving financial return.
+ |    b. having a particular profession as a permanent career.
+ |    c. engaged in by persons receiving financial return.
 
 While people outside the discipline might not think of a technical writer as such, since they are paid to write technical writers are by definition professional writers.
 

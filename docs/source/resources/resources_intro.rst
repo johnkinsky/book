@@ -6,7 +6,7 @@ Resources and Sites You Can Use
 Documentation Toolchains (Open Source)
 ======================================
 
-Community-driven open source tools and toolchains that support creating, transforming, and publishing documentation. 
+Community-driven open source tools and toolchains to  create, transform, and publish documentation. 
 
 - `Pandoc <https://pandoc.org/>`_
 - `Sphinx <https://www.sphinx-doc.org/>`_
@@ -22,9 +22,15 @@ Community-driven open source tools and toolchains that support creating, transfo
 Diagramming, Visualization, and Graphics (Open Source)
 ======================================================
 
+Open source (mostly) platforms and applications to create diagrams, images, and publications 
+
+- `Mermaid.js.org <https://mermaid.js.org/>`_. (`Mermaid Docs <https://mermaid.js.org/intro/>`_.)
+- `Excalidraw <https://excalidraw.com/>`_
 - `Skia <https://skia.org/docs/>`_
-- `Mermaid <https://mermaid.js.org/intro/>`_
+- `Google Drawings <https://docs.google.com/drawings>`_
 - `Inkscape <https://inkscape.org/>`_
+- `GIMP <https://www.gimp.org/>`_
+- `Scribus <https://www.scribus.net/>`_
 
 =====================================
 Documentation Solutions (Commercial)
@@ -43,7 +49,7 @@ Commercial platforms that offer sophisticated user interfaces, collaboration, an
 Markup Languages and Formatting Standards
 ==========================================
 
-Core technologies and guidelines to separate format from presentation. 
+Core technologies and guidelines to structure content, which separates style from presentation and enables reuse in new contexts and multiple formats. 
 
 - `markdown <https://www.markdownguide.org/basic-syntax/>`_
 - `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
