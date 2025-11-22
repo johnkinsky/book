@@ -7,18 +7,9 @@ Where possible I've added the ISBN or a link to the resource. You can use the `I
 
 .. note:: Online resources disappear with alarming frequency. I do my best to keep the list current.
 
-===========================================
-Technical Writing
-===========================================
-
-| Brogan, John A. 1973. **Clear Technical Writing**. New York: McGraw-Hill. 
-| (ISBN 9780070079748)
-
-| Baker, Mark. 2013. **Every Page Is Page One: Topic-Based Writing for Technical Communication and the Web.** Foreword by Scott Abel. Burlington, MA: Morgan Kaufmann. | (ISBN 9781937434281)
-
-===================================================
-Information Architecture and  Content Structure
-==================================================
+======================================================
+Technical Documentation and Information Architecture
+======================================================
 
 | Carey, Michelle, Moira Lanyi, Deirdre Longo, Eric Radzinski, Shannon Rouiller, and Elizabeth Wilde. 2014. **Developing Quality Technical Information: A Handbook for Writers and Editors.** 3rd ed. Upper Saddle River, NJ: IBM Press. 
 | (ISBN 9780133118971)
@@ -31,6 +22,9 @@ Information Architecture and  Content Structure
 
 | Hedden, Heather. 2016. **The Accidental Taxonomist.** 2nd ed. Medford, NJ: Information Today. 
 | (ISBN 9781573875288)
+
+| Halland, Are. **The CORE Model: A Common Sense Approach to Digital Strategy and Design**. PDF only. https://www.thecoremodel.com/book.
+| `PDF version only <https://www.thecoremodel.com/book>`_
 
 
 ===========================================
@@ -54,14 +48,14 @@ Content Strategy
 | (ISBN 9781933097060)
 
 ===========================================
-Data and Information Visualization
+Technical Writing
 ===========================================
 
-| Tufte, Edward R. 1997. **Visual Explanations: Images and Quantities, Evidence and Narrative**. Cheshire, CT: Graphics Press. 
-| (ISBN 9780961392123) 
+| Brogan, John A. 1973. **Clear Technical Writing**. New York: McGraw-Hill. 
+| (ISBN 9780070079748)
 
-| Huff, Darrell. 1954. **How to Lie with Statistics**. Illustrated by Irving Geis. New York: W. W. Norton. 
-| (ISBN 9780393310726) 
+| Baker, Mark. 2013. **Every Page Is Page One: Topic-Based Writing for Technical Communication and the Web.** Foreword by Scott Abel. Burlington, MA: Morgan Kaufmann. | (ISBN 9781937434281)
+
 
 =========================================
 Online Writing Resources
@@ -70,3 +64,12 @@ Online Writing Resources
 - `Purdue OWL <https://owl.purdue.edu/owl/index.html>`_
 - `Perfect English Grammar <https://www.perfect-english-grammar.com/>`_
 
+===========================================
+Data and Information Visualization
+===========================================
+
+| Tufte, Edward R. 1997. **Visual Explanations: Images and Quantities, Evidence and Narrative**. Cheshire, CT: Graphics Press. 
+| (ISBN 9780961392123) 
+
+| Huff, Darrell. 1954. **How to Lie with Statistics**. Illustrated by Irving Geis. New York: W. W. Norton. 
+| (ISBN 9780393310726) 

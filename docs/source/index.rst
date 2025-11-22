@@ -1,16 +1,16 @@
 
-Technical Writing: From Basics to a Complex Systems Approach
-============================================================================
+Technical Documentation: From Basics to Complex Systems
+===========================================================
 
-========================================
-Why Another Guide on Technical Writing?
-========================================
+================================================
+Why Another Guide on Technical Documentation?
+================================================
 
-This guide is intended to provide practical steps and methods for creating an end-to-end documentation capability from a high-level perspective. 
+This guide is intended to provide practical steps and methods for creating an end-to-end documentation capability.  Technical documentation is a specific domain of technical writing, and this guide does not address any of the formally taught technical writing methods or techniques. 
 
 There are multiple books that cover the specifics mentioned in this guide, and where possible I offer some suggestions for further reading; however, this guide is intended to provide tools and to quickly orient anyone interested in understanding how to create technical documentation and set up a structures, processes, and workflows to maintain the content.
 
-If you just want a list of books on technical writing and content strategy, go to :ref:`further-reading` now.
+If you just want a list of books or resources on writing, technical documentation, or content strategy, go to :ref:`further-reading` now.
 
 .. toctree::
    :maxdepth: 1

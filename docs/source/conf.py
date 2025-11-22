@@ -1,6 +1,6 @@
 
 # conf.py for book/guide Sphinx builds.
-project = 'Technical Writing - From Basics to a Complex Systems Approach'
+project = 'Technical Documentation - From Basics to Complex Systems'
 copyright = '2025, John M. Kinsky'
 author = 'John Kinsky'
 version = '1.0'

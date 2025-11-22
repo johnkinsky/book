@@ -11,7 +11,7 @@ There are many reasons to use style guides, but the main reason are...
 Online Style Guides
 =====================================
 
-Here is a list of some online style guides.
+I've listed some useful online style guides that you should scan for ideas and spend time reading. Technical writers read and reference these guides and these types of resources often. 
 
 - `The Chicago Manual of Style Online <https://www.chicagomanualofstyle.org/home.html>`_
 - `Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>`_
