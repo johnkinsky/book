@@ -7,6 +7,9 @@ All documentation content fits within one or more phases in a content lifecycle.
 
 Individual writers always perform the tasks in the system at some levels but might not recognize it as an integrated system.
 
+.. image:: ../images/contentlayers.png
+
+
 ===================================
 Creation Layer
 ===================================
