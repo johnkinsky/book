@@ -12,15 +12,6 @@ There are multiple books that cover the specifics mentioned in this guide, and w
 
 If you just want a list of books or resources on writing, technical documentation, or content strategy, go to :ref:`further-reading` now.
 
-.. toctree::
-   :maxdepth: 1
-   
-   overview/introduction
-   writing/writing_intro
-   content/contentstrategy_intro
-   resources/resources_intro
-
-  
 ===========================
 Is this an Active Project?
 ===========================
@@ -34,3 +25,13 @@ I'm adding to this skeletal structure topic-by-topic and section-by-section as t
 - Open-source and commercial tools for content creation.
 
 I plan to self-publish the final project in **printed, bound** and **ePub** formats when it's finished. Until then, I'll continue to add to the content in this online HMTL version.
+
+
+.. toctree::
+   :hidden:   
+   
+   overview/introduction
+   writing/writing_intro
+   content/contentstrategy_intro
+   analysis/analysis_intro
+   resources/resources_intro

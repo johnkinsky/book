@@ -5,7 +5,7 @@ Further Reading
 
 Where possible I've added the ISBN or a link to the resource. You can use the `ISBN Search <https://isbnsearch.org/>`_ to search by ISBN, book title, or author.
 
-.. note:: Online resources disappear with alarming frequency. I do my best to keep the list current.
+.. Note:: Online resources disappear with alarming frequency. I do my best to keep the list current.
 
 ======================================================
 Technical Documentation and Information Architecture
