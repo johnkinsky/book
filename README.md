@@ -1,10 +1,23 @@
 # John M. Kinsky GitHub Repo
 
-You can find examples of my past work, current projects, and some things I'm thinking about working on.
+You can find examples of my current and past work and some things I'm thinking about working on.
+
+## Book
+
+I'm currently working on a book, more properly a guide at present, on technical documentatio. I plan to cover content strategy, content structure and governance, publishing, task analysis, and analytics (and probably some other stuff too). See my progress at [Technical Documentation: From Basics to Complex Systems](https://johnkinsky.github.io/book/).
+
+The guide is intended to provide useful practices, methodologies, and tools to anyone who wants to create content or documentation, reduce publishing and review friction, and track content effectiveness in real time.
+
+### Programming Samples (In development)
+
+- [Page Analyzer Sample](https://github.com/johnkinsky/book/tree/main/page_analyzer)
+
+### Writing Portfolio
+- [PDF Version](https://github.com/johnkinsky/book/blob/main/writing_samples.pdf)
 
 ## About Me
 
-I've done a lot of things in my career. At various times and several companies, I've been a...
+I've done a lot of things. At various times and several companies, I've been a...
 
 - Web Developer and Web Designer
 - Technical Writer / Information Developer
@@ -24,16 +37,3 @@ As you might expect, I used a lot of tools, technologies, and methodologies in t
 ### Helpful Links
 
 - [Helpful Resources](resources.md)
-
-### Programming Samples I'm Working On
-
-- [Page Analyzer Sample](https://github.com/johnkinsky/book/tree/main/page_analyzer)
-
-### Writing Portfolio
-- [PDF Version](https://github.com/johnkinsky/book/blob/main/writing_samples.pdf)
-
-## Book
-
-I'm currently working on a book, more properly a guide at present, on technical writing incorporating content strategy, content governance, publishing pipelines, task analysis and analytics. See my progress at [Technical Writing: From Basics to a Complex Systems Approach](https://johnkinsky.github.io/book/).
-
-The guide is intended to provide useful practices, methodologies, and tools to anyone who wants to create content or documentation, reduce publishing and review friction, and track content effectiveness in real time.
