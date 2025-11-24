@@ -4,10 +4,12 @@ Documentation Analytics and Analysis
 
 It’s important to understand that documentation analytics are a special case when presenting information; in fact, most analytical or behavioral tools one uses for documentation analytics are borrowed from another discipline. It’s impossible to use current analytics tools and methods without first adapting them. 
 
-First, some basic working definitions of analytics and analysis. When I use these terms, I mean. 
+First, some basic working definitions of analytics and analysis. When I use the terms analytics and analysis, I define them as shown here. 
 
 - Analytics – Using descriptive, inferential, or predictive statistical methods to examine, transform, model, and prepare data for analytic analysis.
 - Analysis – Explaining and visualizing the results of the analytic work. Providing insights arising from analytic process to drive business or content decisions. 
+
+In practice, these working definitions align with the expectations and high-level definitions I've encountered amongst most stakeholders. 
 
 .. Note:: Examples of common web analytics platforms are Adobe Analytics or Adobe Customer Journey Analytics and Google Analytics 4. Common behavioral analytics platforms are hotjar, Microsoft Clarity, Contentsquare, and Siteimprove. In all cases, the assumed audience for the data and insight is marketing or web administrators, so the data is reported in terms of return on investment, ad spending, or site health. I will cover both types of analytics platforms, highlight some uses, and provide some examples in the future.
 
@@ -21,7 +23,7 @@ Bounce rates are high, or low are one of the numbers stakeholders I’ve worked 
 
 The bounce rate is calculated percentage of times that kind of behavior occurred when compared against all sessions or visits for a specific period. For example, assume you had 100 visits/session in a week. Of the 100 visits/sessions, 60 visits/sessions included users who viewed a single page, did nothing else and left. That’s a bounce rate of 60% for the week. Marketing folks would panic with a bounce rate that high. 
 
-That model does not apply to documentation. Finding the proper bounce rate for documentation requires that the analytics and analysis starts with two contextual constraints:
+That model does not apply to documentation. Finding the proper bounce rate for documentation requires that the analytics and analysis start with two contextual constraints:
 
 - Documentation type – Different content types might have different expected user behaviors. 
 - User acquisition – Different sources and channels might have different expected behaviors.
