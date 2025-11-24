@@ -9,7 +9,7 @@ Content models help writers and content creators think about how documentation t
 
 Two well-known content models are *Diátaxis* and the *CORE Model*.
 
-- `Diátaxis <https://diataxis.fr/start-here/>`_: Focused is on documentation specifically.
-- `CORE Documentation Model <https://www.thecoremodel.com/method>`_: Focus is across multiple digital formats, but is easily adapted to documentation.
+- `Diátaxis <https://diataxis.fr/start-here/>`_: Focused on documentation specifically.
+- `CORE Documentation Model <https://www.thecoremodel.com/method>`_: Crosses multiple digital formats, but is easily adapted to documentation.
 
 Understand the intent of these models to get a better idea of how content models help define a documentation set and place content in the proper positions along the user path. 

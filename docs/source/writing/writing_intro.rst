@@ -1,5 +1,5 @@
-The Practice of Technical Writing
-==================================
+The Practice and Art of Technical Writing
+===========================================
 
 In almost every conversation that lasts beyond thirty minutes, the topic eventually turns to one’s professional life. The question is something along the lines of, “What do you do for a living?” When I tell my interlocutor that I am a Technical Writer, I get one of three responses: “That sounds boring.” or “So I should blame you for all the bad documentation.” or awkward silence and shift change of topic.
 
@@ -7,12 +7,10 @@ Technical writing is a special form of writing focused on explaining as easily a
 
 There are many writers in the world. When asked, most people would probably define a writer as a novelist, journalist, or poet. A few people might also add those who write books that popularized complex ideas for amateurs, like economics or physics. Very few would probably include technical writers, which is odd. After journalists, technical writers are probably among the most common type of professional writers.
 
-
 The Merriam-Webster Dictionary offers the following definition of **professional**:[#professional]_.
 
- | 2 a. participating for gain or livelihood in an activity or field of endeavor often engaged in by amateurs.
- |    b. having a particular profession as a permanent career.
- |    c. engaged in by persons receiving financial return.
+*2 a. participating for gain or livelihood in an activity or field of endeavor often engaged in by amateurs. b. having a particular profession as a permanent career. c. engaged in by persons receiving financial return.*
+
 
 While people outside the discipline might not think of a technical writer as such, since they are paid to write technical writers are by definition professional writers.
 
