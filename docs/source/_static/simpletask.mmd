@@ -1,0 +1,22 @@
+---
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#FFFFFF'
+    primaryTextColor: '#000000'
+    primaryBorderColor: '#000000'
+    lineColor: '#000000'
+---
+
+flowchart TD
+    A[Driving Application API Request] --> B[Design API Request]
+    B --> b1[1. Choose Endpoint]
+    b1 --> b2[2. Select HTTP Method]
+
+    A --> C[Implement Request]
+    C --> c1[1. Write Code]
+    c1 --> c2[2. Integrate with Application]
+	
+	style A fill:#000000,stroke:#000000,stroke-width:2px,color:#FFFFFF
+	style B fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000
+	style C fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000

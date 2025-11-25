@@ -5,8 +5,8 @@ from datetime import datetime
 
 # Get current year
 current_year = datetime.now().year
-# Project path (docs/source)  
-sys.path.insert(0, os.path.abspath('./.'))  
+# Project path (docs/source)
+sys.path.insert(0, os.path.abspath('./.'))
 
 # Set project details
 project = 'Technical Documentation - From Basics to Complex Systems'
@@ -30,8 +30,12 @@ html_theme_options = {
     "use_repository_button": True
 }
 
-# Inject GA4
+# Inject GA4 and other libraries as needed
 html_js_files = [
     ('https://www.googletagmanager.com/gtag/js?id=id=G-929RXPVCFH', {'async': 'async'}),
     'jmk_gtag.js',
 ]
+
+# Convert mermaid files to SVG/PNG
+# npm install -g @mermaid-js/mermaid-cli
+# mmdc -i source/_static/completetask.mmd -o source/images/completetask.svg

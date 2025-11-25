@@ -1,0 +1,41 @@
+---
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#FFFFFF'
+    primaryTextColor: '#000000'
+    primaryBorderColor: '#000000'
+    lineColor: '#000000'
+---
+
+flowchart TD
+    A[Driving Application API Request] --> B[Define Requirements]
+    B --> B1[1. Identify Driving Features]
+    B1 --> B2[2. Set Data Inputs]
+	B2 --> B3[3. Select Output]
+
+    A --> C[Design API Request]
+    C --> C1[1. Choose Endpoint]
+    C1 --> C2[2. Select HTTP Method]
+    C2 --> C3[3. Specify Parameters]
+
+    A --> D[Implement Request]
+    D --> D1[1. Write Code]
+	D1 --> D2[2. Debug Code]
+    D2 --> D3[2. Integrate with Application]
+
+    A --> E[Test & Validate]
+    E --> E1[1. Unit Testing]
+    E1 --> E2[2. Integration Testing]
+    E2 --> E3[3. Performance Testing]
+
+    A --> F[Deploy & Maintain]
+    F --> F1[1. Deploy to Production]
+    F1 --> F2[2. Monitor Usage]
+	
+	style A fill:#000000,stroke:#000000,stroke-width:2px,color:#FFFFFF
+	style B fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000
+	style C fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000
+	style D fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000
+	style E fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000
+	style F fill:#F5F5F5,stroke:#0000FF,stroke-width:2px,color:#000000

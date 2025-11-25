@@ -33,5 +33,6 @@ I plan to self-publish the final project in **printed, bound** and **ePub** form
    overview/introduction
    writing/writing_intro
    content/contentstrategy_intro
+   workflow/workflow_intro
    analysis/analysis_intro
    resources/resources_intro
