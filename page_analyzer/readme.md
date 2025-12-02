@@ -14,7 +14,7 @@ I created the script to demonstrate how a few Python packages can quickly introd
 I had a twofold guideline while creating the analyzer script.
 
 1. Use only common Python packages that could introduce powerful NLP capabilities.
-2. Do not bloat my local system or requiring a large dependency chain. (If you've ever installed [rake-nlkt](https://pypi.org/project/rake-nltk/), then you know what I mean. It's powerful, handles sentences, and is more customizable, but it comes with a lot of dependencies.)
+2. Do not bloat my local system by requiring a large dependency chain. (If you've ever installed [rake-nlkt](https://pypi.org/project/rake-nltk/), then you know what I mean. It's powerful, handles sentences, and is more customizable, but it comes with a lot of dependencies.)
 
 I used the following packages to get these features:
 
