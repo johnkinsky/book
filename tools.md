@@ -13,15 +13,15 @@ I have direct experience using the following tools, technologies, and methodolog
 | reStructured Text (rST)                 | Javascript / JQuery
 | markdown (multiple flavors)             | XML / XSL
 | Abode RoboHelp                          | Visual Studio Code (multiple extension)
-| Madcap Flare                            | C++
-| Adobe Framemaker                        |
-| Mermaid                                 |
-| Pandoc                                  |
+| Madcap Flare                            | C++ (limited)
+| Adobe Framemaker                        | Fortran (limited)
+| Mermaid                                 | YAML
+| Pandoc                                  | JSON
 
 
 | Business Intelligence and Visualization | Data Analysis, Validation, and Analysis
 |:---                                     |:---
-| Power BI Desktop and Server             | Snowflake
+| Power BI Desktop and Server             | Snowflake, MySQL, PostgreSQL
 | Tableau                                 | Azure Data Bricks
 | Google Analytics 4                      | Data ELT and modeling
 | Adobe Customer Journey Analytics        | Data Visualization (Power BI, Tableau, Excel, Python)
