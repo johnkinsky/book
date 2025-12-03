@@ -1,6 +1,7 @@
 # Tools and Technologies
 
-I have direct experience using the following tools, technologies, and methodologies.
+In the past ten years, I've used the following tools, technologies, and methodologies often.
+__________________________________________________________________________________________________
 
 ## Documentation, Programming, and Analytics
 
@@ -29,28 +30,34 @@ I have direct experience using the following tools, technologies, and methodolog
 | Google Search Console                   | Statistical Analysis (descriptive and inferential)
 
 
-| Search Engine Optimization              | Social Media Monitoring
+| Search Engine Optimization              | Social Media Monitoring and Tracking
 |:---                                     |:---
 | hotjar                                  | Sprinklr
 | Google Tag Manager                      | Commonroom
 | Microsoft Clarity                       | Talkwalker
-| Siteimprove                             |
-| ContentSquare                           |
+| Siteimprove                             | Omnibug
+| ContentSquare                           | ObservePoint
 | Moz                                     |
 | Screaming Frog                          |
 | Ahref                                   |
-| Omnibug                                 |
-| ObservePoint                            |
 
+__________________________________________________________________________________________________
+
+## Operating Systems
+- Linux (multiple distributions, but I favor Ubuntu and CentOS)
+- Windows
+- macOS
+- Raspberry Pi OS (Raspian)
 __________________________________________________________________________________________________
 
 ## General Tools
 - Microsoft Office (Excel and Word expert)
+- Apache OpenOffice
 - Jira
 - Confluence
 - GitHub
 - git
-- SVN
+- SVN / Perforce
 __________________________________________________________________________________________________
 
 ## People Management
