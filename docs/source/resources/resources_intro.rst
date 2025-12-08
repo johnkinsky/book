@@ -58,6 +58,16 @@ Core technologies and guidelines to structure content, which separates style fro
 - `CSS <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>`_
 - `SVG <https://developer.mozilla.org/en-US/docs/Web/SVG>`_
 
+
+===========================================
+Community Information
+===========================================
+
+- `reddit.com/r/technicalwriting <https://www.reddit.com/r/technicalwriting>`_
+- `Write the Docs <https://www.writethedocs.org/>`_
+
+.. Note:: The **Society for Technical Communication (STC)** offered invaluable industry-wide insights and chapter-specific resources for many decades; however, it `ceased operation <https://www.ericholscher.com/blog/2025/jan/29/society-for-technical-communication/>`_ in early 2025. 
+
 .. toctree::
    :maxdepth: 1
    :caption: In this section:

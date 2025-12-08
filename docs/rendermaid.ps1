@@ -1,4 +1,4 @@
-# Script to render all Mermaid diagrams as image formats for topic
+# PowerShell script to render Mermaid diagrams as image formats for topics; assumes Windows.
 # ---------------------------------------------------
 # Install command line tool. One time only.
 # ---------------------------------------------------
@@ -8,28 +8,30 @@
 # ---------------------------------------------------
 # mmdc -i <input file>.mmd -o <output file>.svg
 # mmdc -i <input file>.mmd -o <output file>.png
-
 # ---------------------------------------------------
 # Define source and destination directories. Assume root directory.
 # ---------------------------------------------------
 $sourceDir = "source/_static"
-$destDir   = "source/images"
-
+$destinationDir = "source/images"
 # ---------------------------------------------------
-# Destination directory exists
+# Check that destination directory exists.
 # ---------------------------------------------------
-if (!(Test-Path -Path $destDir)) {
-    New-Item -ItemType Directory -Path $destDir | Out-Null
+if (!(Test-Path -Path $destinationDir)) {
+    New-Item -ItemType Directory -Path $destinationDir | Out-Null
 }
-
 # ---------------------------------------------------
-# Iterate .mmd files in the source directory
+# Iterate .mmd files in the source directory and generate output.
 # ---------------------------------------------------
 $mmdFiles = Get-ChildItem -Path $sourceDir -Filter *.mmd
 foreach ($file in $mmdFiles) {
     # Build output path with file extension
-    $outputFile = Join-Path $destDir ($file.BaseName + ".svg")
+    $outputFile = Join-Path $destinationDir ($file.BaseName + ".svg")
     # Run mmdc for SVG output
     mmdc -i $file.FullName -o $outputFile
-    Write-Host "Output: $outputFile"
+    Write-Output "Output file location and name: $outputFile"
 }
+# ---------------------------------------------------
+# Show final image destination.
+# ---------------------------------------------------
+$finalMessage = "Images created in $pwd\$destinationDir."
+Write-Output $finalMessage
