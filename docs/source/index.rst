@@ -16,9 +16,9 @@ If you just want a list of books or resources on writing, technical documentatio
 Is this an Active Project?
 ===========================
 
-Yes. It's active. This temporary version is only meant to help configure the build automation correctly.
+Yes. It's active. This temporary version is only meant to help configure the build and image creation automation correctly.
 
-I'm adding to this skeletal structure topic-by-topic and section-by-section as time permits. In addition to these temporary scetions, I will add sections and topics on the following subjects:
+I'm adding to this skeletal structure topic-by-topic and section-by-section as time permits. In addition to these temporary sections, I will add sections and topics on the following subjects:
 
 - Workflow tracking and tools useful for technical writers
 - Analytics and analysis applied to documentation

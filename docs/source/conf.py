@@ -35,7 +35,3 @@ html_js_files = [
     ('https://www.googletagmanager.com/gtag/js?id=id=G-929RXPVCFH', {'async': 'async'}),
     'jmk_gtag.js',
 ]
-
-# Convert mermaid files to SVG/PNG
-# npm install -g @mermaid-js/mermaid-cli
-# mmdc -i source/_static/completetask.mmd -o source/images/completetask.svg
