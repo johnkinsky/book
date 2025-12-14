@@ -11,6 +11,7 @@ Once finished, the guide is intended to provide useful practices, methodologies,
 ### Programming Samples (In development)
 
 - [Page Analyzer Sample](https://github.com/johnkinsky/book/tree/main/page_analyzer)
+- [PyPi Package Data Graph](https://github.com/johnkinsky/book/tree/main/pypi_downloads))
 
 ### Writing Portfolio
 - [PDF Version](https://github.com/johnkinsky/book/blob/main/writing_samples.pdf)
