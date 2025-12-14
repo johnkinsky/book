@@ -8,10 +8,12 @@ I'm currently working on a book, more properly a general guide at present, on cr
 
 Once finished, the guide is intended to provide useful practices, methodologies, and tools to anyone who wants to create content or documentation, reduce publishing and review friction, understand effective content metrics, and track content effectiveness in real time.
 
-### Programming Samples (In development)
+### Programming Samples
+
+I'm slowly working on some simple samples.
 
 - [Page Analyzer Sample](https://github.com/johnkinsky/book/tree/main/page_analyzer)
-- [PyPi Package Data Graph](https://github.com/johnkinsky/book/tree/main/pypi_downloads))
+- [PyPi Package Data Graph](https://github.com/johnkinsky/book/tree/main/pypi_downloads)
 
 ### Writing Portfolio
 - [PDF Version](https://github.com/johnkinsky/book/blob/main/writing_samples.pdf)
