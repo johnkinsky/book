@@ -31,6 +31,8 @@ This is a draft of the modified version; however, it's relatively harmless and s
    ```
    openseries
    ```
+   The package must have been on PyPi.org long enough (longer than a day) to retrieve valid data.
+
 4. Once the script completes, open the HTML file, in the same directory as the script, to see the charted data. You should see something similar to the following image.
 
 ![htmlcontainer.png](htmlcontainer.png "HMTL version")
@@ -53,6 +55,7 @@ Here are some suggested packages to use for testing:
 - `matplotlib` - Relatively large activity
 - `breathe` - Moderate activity
 - `openseries` - Relatively light activity
+- `sql-connectors` - Low activity
 
 
 

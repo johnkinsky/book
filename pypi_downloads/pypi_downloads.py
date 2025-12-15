@@ -1,11 +1,10 @@
-# Script to get and display PyPi.org package data.
-
+# Script to get and display PyPi.org (pip) package download data.
 # Requires pypistats, matplotlib, and numpy
 # https://pypistats.org/api/
 # https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot
 # https://numpy.org/doc/2.3/reference/generated/numpy.polyfit.html
 # https://numpy.org/doc/2.3/reference/generated/numpy.polyval.html
-# 
+ 
 import subprocess
 import json
 import csv
@@ -28,12 +27,13 @@ htmlFileName = "download_data.html"
 
 # Package names: https://pypi.org/search/?q=&o=-created&c=Natural+Language+%3A%3A+English
 def get_packages():
-    pypiName = input("Enter a valid package name from PyPi.org: ").strip()
+    pypiName = input("Enter a valid package name from PyPi.org (excluding version): ").strip()
     return pypiName
 # Use these known package names for testing
 # matplotlib - very large activity
 # breathe - moderate activity
 # openseries - limited activity
+# sql-connectors - low activity
 
 # Get packages. Use the .split approach for later expansion when adding more package names.
 packages = get_packages().split()
@@ -44,7 +44,7 @@ dataFileName = f"{package_prefix}_{dataFileName}"
 htmlFileName = f"{package_prefix}_{htmlFileName}"
 
 # Get full download stats between start_date and end_date.
-# Use JSON because the API doesn't seem to work otherwise.
+# Use JSON because the API doesn't work otherwise.
 def get_package_stats(packagename, day):
     day_str = day.strftime('%Y-%m-%d')
     result = subprocess.run([
@@ -60,12 +60,13 @@ def get_package_stats(packagename, day):
 # Data structure chart
 series_data = {pkg: [] for pkg in packages}
 
-# Write data to CSV file
+# Write raw data to CSV
 with open(dataFileName, 'w', newline='') as csvfile:
     fieldnames = ['packagename', 'date', 'total']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
     current_day = start_date
+    # Iterate for each day in date range
     while current_day <= end_date:
         for package in packages:
             try:
@@ -76,7 +77,7 @@ with open(dataFileName, 'w', newline='') as csvfile:
                     'date': current_day.strftime('%Y-%m-%d'),
                     'total': total_downloads
                 })
-                # Save for plotting data.
+                # Save for plotting data. Keep date formatting constant.
                 series_data[package].append((current_day.strftime('%Y-%m-%d'), total_downloads))
             except Exception as e:
                 print(f"Error processing {package} on {current_day}: {e}")
@@ -88,15 +89,18 @@ print("Full data saved to " + dataFileName + ".")
 package = packages[0]
 points = series_data[package]
 
+#Extract the dates and values
+#Get dates
 dates = [datetime.strptime(d, "%Y-%m-%d") for d, _ in points]
+#Get values
 values = [v for _, v in points]
 
-# Determine lower and upper boundaries
+# Determine lower and upper values
 y_min = min(values)
 y_max = max(values)
 
-# Add padding so the chart easier to read
-padding = (y_max - y_min) * 0.1  # 10% padding
+# Add padding to make chart easier to read
+padding = (y_max - y_min) * 0.1
 
 # Define chart for x-y comparison and pass attributes to chart object
 fig, xy = plt.subplots(figsize=(12, 6))
@@ -108,7 +112,7 @@ xy.plot(
     linewidth='1',
     markersize='3',
     color='blue',
-    label=package,
+    label=package + " downloads",
 )
 
 # Find trendline using numpy (Using older methods because I understand them.)
@@ -120,7 +124,7 @@ xy.plot(dates, trendline, color='red', linewidth=1, linestyle='dashed', label='T
 # Use dynamic y-axis range
 xy.set_ylim(y_min - padding, y_max + padding)
 
-# Format values for thousands
+# Format values for thousands. Not sure this is great placement, but doesn't work otherwise.
 def format_value(v):
     if v >= 1000:
         return f"{v/1000:,.1f}K"
