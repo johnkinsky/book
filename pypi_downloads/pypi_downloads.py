@@ -1,8 +1,10 @@
 # Script to get and display PyPi.org package data.
 
-# Requires pypistats and matplotlib
+# Requires pypistats, matplotlib, and numpy
 # https://pypistats.org/api/
 # https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot
+# https://numpy.org/doc/2.3/reference/generated/numpy.polyfit.html
+# https://numpy.org/doc/2.3/reference/generated/numpy.polyval.html
 # 
 import subprocess
 import json
@@ -10,6 +12,7 @@ import csv
 import base64
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+import numpy as npy
 from datetime import datetime, timedelta
 from io import BytesIO
 
@@ -32,10 +35,10 @@ def get_packages():
 # breathe - moderate activity
 # openseries - limited activity
 
-# Get packages. Use this approach for later expansion.
+# Get packages. Use the .split approach for later expansion when adding more package names.
 packages = get_packages().split()
 
-# Define full output file names (fully joined.
+# Define full output file names (fully joined)
 package_prefix = packages[0]
 dataFileName = f"{package_prefix}_{dataFileName}"
 htmlFileName = f"{package_prefix}_{htmlFileName}"
@@ -92,30 +95,38 @@ values = [v for _, v in points]
 y_min = min(values)
 y_max = max(values)
 
-# Add padding so the plot looks nicer
+# Add padding so the chart easier to read
 padding = (y_max - y_min) * 0.1  # 10% padding
 
-# Define plot for x-y comparison
-# Pass attributes to 
+# Define chart for x-y comparison and pass attributes to chart object
 fig, xy = plt.subplots(figsize=(12, 6))
 xy.plot(
     dates,
     values,
     marker='o',
-    linestyle='dashed',
-    linewidth='2',
-    markersize='5',
+    linestyle='solid',
+    linewidth='1',
+    markersize='3',
     color='blue',
     label=package,
 )
+
+# Find trendline using numpy (Using older methods because I understand them.)
+x_numeric = npy.arange(len(values))
+coeffs = npy.polyfit(x_numeric, values, 1)
+trendline = npy.polyval(coeffs, x_numeric)
+xy.plot(dates, trendline, color='red', linewidth=1, linestyle='dashed', label='Trendline')
+
 # Use dynamic y-axis range
 xy.set_ylim(y_min - padding, y_max + padding)
-# Format values
+
+# Format values for thousands
 def format_value(v):
     if v >= 1000:
         return f"{v/1000:,.1f}K"
     return f"{v:,}"
-# Find values for min/max downloads
+
+# Find values for minimum and maximum downloads
 min_index = values.index(y_min)
 max_index = values.index(y_max)
 for i, (x, y) in enumerate(zip(dates, values)):
@@ -128,10 +139,12 @@ for i, (x, y) in enumerate(zip(dates, values)):
             fontsize=10,
             color='red'
         )
+
 # Format y-axis values using mticker
 xy.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, pos: format_value(v)))
+
 # Format chart
-xy.set_title("PyPI Downloads")
+xy.set_title("PyPi Downloads")
 xy.set_xlabel("Date")
 xy.set_ylabel("Downloads")
 xy.grid(True, linestyle='--', alpha=0.5)
@@ -154,17 +167,13 @@ html_content = f"""
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<style>
-body {{margin: 30px;}}
-h1, h2, p, a {{font-family: 'Sansation', sans-serif;}}
-</style>
+<style>body {{margin: 30px;}}h1, h2, p, a {{font-family: 'Sansation', sans-serif;}}</style>
 <body>
-<h1>PyPI download statistics for "{package}" package.</h1>
-<p>Chart shows values only for the highest and lowest days of download activity.</p>
-</br>
-<img src="data:image/png;base64,{img_base64}" alt="{package} Download Data">
-</br>
-<p>Optionally, you can download the <strong>{package}</strong> data contained in the <a href="{dataFileName}">{dataFileName}</a> file.</p>
+<h1>PyPi Download Statistics for "{package}" package.</h1>
+<p>This chart shows PyPi (pip) download activity for the past three months and shows the activity trend. (Values shown only for the highest and lowest downloads.)</p>
+<p><img src="data:image/png;base64,{img_base64}" alt="{package} Download Chart"></p>
+<p>Save PNG version of the <a download="{package}_chart.png" href="data:image/png;base64,{img_base64}">chart</a>.</p>
+<p>Download the <strong>{package}</strong> data contained in the <a href="{dataFileName}">{dataFileName}</a> file.</p>
 </body>
 </html>
 """
